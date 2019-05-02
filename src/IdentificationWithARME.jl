@@ -1,10 +1,11 @@
 __precompile__(false)
 module IdentificationWithARME
 export parameters_pop, create_t_osmo, create_time_steps, simulate_data, simulation_metapop, ARME, load_estim_values, plot_with_data_quantile
-using PyCall
-# using Distributions
-# using DataStructures
 using LinearAlgebra
+using PyCall
+using Distributions
+# using DataStructures
+
 # using Roots
 using Statistics
 using Optim, NLSolversBase
